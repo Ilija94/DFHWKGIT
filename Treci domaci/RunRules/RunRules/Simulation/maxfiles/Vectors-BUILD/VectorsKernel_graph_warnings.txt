@@ -1,0 +1,64 @@
+*** After kernel graph-pass 'Init Graph' ***
+node "<{HWOffsetFix:32, 0, UNSIGNED}>" (ID 4) has unconnected outputs: [output]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	vectors.VectorsKernel.<init>(VectorsKernel.maxj:26)
+	vectors.VectorsManager.main(VectorsManager.maxj:20)
+	
+node "<{HWOffsetFix:32, 0, UNSIGNED}>" (ID 6) has unconnected outputs: [output]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	vectors.VectorsKernel.<init>(VectorsKernel.maxj:26)
+	vectors.VectorsManager.main(VectorsManager.maxj:20)
+	
+node "<{HWOffsetFix:32, 0, UNSIGNED}>" (ID 11) has unconnected outputs: [output]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	vectors.VectorsKernel.<init>(VectorsKernel.maxj:27)
+	vectors.VectorsManager.main(VectorsManager.maxj:20)
+	
+node "<{HWOffsetFix:32, 0, UNSIGNED}>" (ID 13) has unconnected outputs: [output]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	vectors.VectorsKernel.<init>(VectorsKernel.maxj:27)
+	vectors.VectorsManager.main(VectorsManager.maxj:20)
+	
+*** After kernel graph-pass 'Init Graph' ***
+node "Input(PrviVektor)" (ID 2) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	vectors.VectorsKernel.<init>(VectorsKernel.maxj:26)
+	vectors.VectorsManager.main(VectorsManager.maxj:20)
+	
+node "Input(DrugiVektor)" (ID 9) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	vectors.VectorsKernel.<init>(VectorsKernel.maxj:27)
+	vectors.VectorsManager.main(VectorsManager.maxj:20)
+	
+*** After kernel graph-pass 'OptimiseNodesPass' ***
+node "Input(PrviVektor)" (ID 2) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	vectors.VectorsKernel.<init>(VectorsKernel.maxj:26)
+	vectors.VectorsManager.main(VectorsManager.maxj:20)
+	
+node "Input(DrugiVektor)" (ID 9) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	vectors.VectorsKernel.<init>(VectorsKernel.maxj:27)
+	vectors.VectorsManager.main(VectorsManager.maxj:20)
+	
+*** After kernel graph-pass 'RemoveUntypedConstants' ***
+node "Input(PrviVektor)" (ID 2) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	vectors.VectorsKernel.<init>(VectorsKernel.maxj:26)
+	vectors.VectorsManager.main(VectorsManager.maxj:20)
+	
+node "Input(DrugiVektor)" (ID 9) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	vectors.VectorsKernel.<init>(VectorsKernel.maxj:27)
+	vectors.VectorsManager.main(VectorsManager.maxj:20)
+	
